@@ -1,0 +1,11 @@
+﻿report_date,side,row_type,account,amount_usd_thousands,amount_usd_billions,share_of_total_assets_pct,method,source_or_formula,institution_count
+2025-12-31,Assets,component,Cash and balances due,2572470650,2572.470650,10.185096,reported,CHBAL,4338
+2025-12-31,Assets,component,Securities,5712107738,5712.107738,22.615755,reported,SC,4338
+2025-12-31,Assets,component,Net loans and leases,13255133087,13255.133087,52.480599,reported,LNLSNET,4338
+2025-12-31,Assets,component,Other assets (calculated residual),3717494518,3717.494518,14.718550,calculated,ASSET - CHBAL - SC - LNLSNET,4338
+2025-12-31,Assets,total,Total assets,25257205993,25257.205993,100.000000,reported,ASSET,4338
+2025-12-31,Liabilities,component,Deposits,20077278088,20077.278088,79.491287,reported,DEP,4338
+2025-12-31,Liabilities,component,Borrowed funds (including subordinated debt),1645722992,1645.722992,6.515855,calculated,FREPP + OTHBRF + SUBND,4338
+2025-12-31,Liabilities,component,Other liabilities (calculated residual),935612801,935.612801,3.704340,calculated,LIAB - DEP - FREPP - OTHBRF - SUBND,4338
+2025-12-31,Liabilities,total,Total liabilities,22658613881,22658.613881,89.711482,reported,LIAB,4338
+2025-12-31,Equity,total,Total equity capital,2598592112,2598.592112,10.288518,reported,EQTOT,4338

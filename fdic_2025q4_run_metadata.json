@@ -1,0 +1,34 @@
+{
+  "api_total": 4338,
+  "api_index": {
+    "name": "risview_20260819185831",
+    "createTimestamp": "2026-08-19T18:58:33Z"
+  },
+  "request_urls": [
+    "https://api.fdic.gov/banks/financials?filters=REPDTE%3A20251231+AND+INSDIF%3A1+AND+BKCLASS%3A%28N+OR+NM+OR+SM+OR+SB+OR+SI+OR+SL%29&fields=CERT%2CNAME%2CREPDTE%2CBKCLASS%2CINSDIF%2CASSET%2CCHBAL%2CSC%2CLNLSNET%2CDEP%2CFREPP%2COTHBRF%2CSUBND%2CLIAB%2CEQTOT%2CEQ%2COA%2CALLOTHL&format=json&sort_by=CERT&sort_order=ASC&limit=1000&offset=0",
+    "https://api.fdic.gov/banks/financials?filters=REPDTE%3A20251231+AND+INSDIF%3A1+AND+BKCLASS%3A%28N+OR+NM+OR+SM+OR+SB+OR+SI+OR+SL%29&fields=CERT%2CNAME%2CREPDTE%2CBKCLASS%2CINSDIF%2CASSET%2CCHBAL%2CSC%2CLNLSNET%2CDEP%2CFREPP%2COTHBRF%2CSUBND%2CLIAB%2CEQTOT%2CEQ%2COA%2CALLOTHL&format=json&sort_by=CERT&sort_order=ASC&limit=1000&offset=1000",
+    "https://api.fdic.gov/banks/financials?filters=REPDTE%3A20251231+AND+INSDIF%3A1+AND+BKCLASS%3A%28N+OR+NM+OR+SM+OR+SB+OR+SI+OR+SL%29&fields=CERT%2CNAME%2CREPDTE%2CBKCLASS%2CINSDIF%2CASSET%2CCHBAL%2CSC%2CLNLSNET%2CDEP%2CFREPP%2COTHBRF%2CSUBND%2CLIAB%2CEQTOT%2CEQ%2COA%2CALLOTHL&format=json&sort_by=CERT&sort_order=ASC&limit=1000&offset=2000",
+    "https://api.fdic.gov/banks/financials?filters=REPDTE%3A20251231+AND+INSDIF%3A1+AND+BKCLASS%3A%28N+OR+NM+OR+SM+OR+SB+OR+SI+OR+SL%29&fields=CERT%2CNAME%2CREPDTE%2CBKCLASS%2CINSDIF%2CASSET%2CCHBAL%2CSC%2CLNLSNET%2CDEP%2CFREPP%2COTHBRF%2CSUBND%2CLIAB%2CEQTOT%2CEQ%2COA%2CALLOTHL&format=json&sort_by=CERT&sort_order=ASC&limit=1000&offset=3000",
+    "https://api.fdic.gov/banks/financials?filters=REPDTE%3A20251231+AND+INSDIF%3A1+AND+BKCLASS%3A%28N+OR+NM+OR+SM+OR+SB+OR+SI+OR+SL%29&fields=CERT%2CNAME%2CREPDTE%2CBKCLASS%2CINSDIF%2CASSET%2CCHBAL%2CSC%2CLNLSNET%2CDEP%2CFREPP%2COTHBRF%2CSUBND%2CLIAB%2CEQTOT%2CEQ%2COA%2CALLOTHL&format=json&sort_by=CERT&sort_order=ASC&limit=1000&offset=4000"
+  ],
+  "retrieval_started_utc": "2026-09-21T14:12:21.710550+00:00",
+  "retrieval_completed_utc": "2026-09-21T14:12:30.528257+00:00",
+  "report_date": "20251231",
+  "source": "https://api.fdic.gov/banks/financials",
+  "filter": "REPDTE:20251231 AND INSDIF:1 AND BKCLASS:(N OR NM OR SM OR SB OR SI OR SL)",
+  "raw_monetary_unit": "USD thousands",
+  "billions_divisor": 1000000,
+  "institution_count": 4338,
+  "class_counts": {
+    "SM": 704,
+    "NM": 2474,
+    "N": 673,
+    "SI": 233,
+    "SB": 209,
+    "SL": 45
+  },
+  "balance_difference_usd_thousands": 0,
+  "borrowed_funds_definition": "FREPP + OTHBRF + SUBND",
+  "aggregation_scope": "Sum of institution balance sheets; interbank positions not netted",
+  "residual_note": "Broad presentation residuals differ from reported OA and ALLOTHL"
+}
