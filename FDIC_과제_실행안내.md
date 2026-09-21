@@ -7,10 +7,6 @@ The Python script and its outputs are complete; the PowerPoint presentation must
 
 1. Upload the Python file through the file panel in Google Colab. Run the following command in a runtime with internet access. If you rename the file, use the same filename in the command.
 
-   ```python
-   %run 20206449_FDIC_2025Q4.py
-   ```
-
    The assignment's `%run fdic_2025q4_balance_sheet.py` is an example. The filename after `%run` must match the file you actually uploaded.
 
 2. Check the console for `[PASS]` and the saved-file messages, then download the outputs from Colab's file panel before the runtime ends.
