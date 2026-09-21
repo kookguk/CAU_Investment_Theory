@@ -5,8 +5,7 @@ The Python script and its outputs are complete; the PowerPoint presentation must
 
 ## Steps to complete manually
 
-1. Confirm that `20206449` in the Python filename is your student ID. No changes to the code are required.
-2. Upload the Python file through the file panel in Google Colab. Run the following command in a runtime with internet access. If you rename the file, use the same filename in the command.
+1. Upload the Python file through the file panel in Google Colab. Run the following command in a runtime with internet access. If you rename the file, use the same filename in the command.
 
    ```python
    %run 20206449_FDIC_2025Q4.py
@@ -14,8 +13,8 @@ The Python script and its outputs are complete; the PowerPoint presentation must
 
    The assignment's `%run fdic_2025q4_balance_sheet.py` is an example. The filename after `%run` must match the file you actually uploaded.
 
-3. Check the console for `[PASS]` and the saved-file messages, then download the outputs from Colab's file panel before the runtime ends.
-4. Prepare approximately 20 PowerPoint slides covering the program flow, key syntax and commands, results, and interpretation. Be ready to explain the code yourself. Submit the `.py` file with your student ID and the `.pptx` file through eClass. No eClass submission has been performed as part of this work.
+2. Check the console for `[PASS]` and the saved-file messages, then download the outputs from Colab's file panel before the runtime ends.
+3. Prepare approximately 20 PowerPoint slides covering the program flow, key syntax and commands, results, and interpretation. Be ready to explain the code yourself. Submit the `.py` file with your student ID and the `.pptx` file through eClass. No eClass submission has been performed as part of this work.
 
 No API key, `pip install`, input CSV, or configuration change is required. The script was executed successfully against the live FDIC API using Python 3.10 in this environment. It has not been run within Google Colab itself.
 
